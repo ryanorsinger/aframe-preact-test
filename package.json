@@ -1,0 +1,38 @@
+{
+  "name": "exhibition",
+  "version": "3.0.1",
+  "description": "A-Frame exhibition about women and non-binary in tech.",
+  "scripts": {
+    "start": "brunch watch --server -P 3000",
+    "build": "brunch build --production",
+    "deploy": "ghpages -d public"
+  },
+  "dependencies": {
+    "aframe": "^0.7.1",
+    "aframe-animation-component": "3.2.5",
+    "aframe-bmfont-text-component": "^0.1.4",
+    "aframe-event-set-component": "3.0.1",
+    "aframe-particle-system-component": "^1.0.11",
+    "aframe-react": "^4.3.0",
+    "preact": "^8.2.7"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-latest": "^6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "ghpages": "0.0.3",
+    "uglify-js-brunch": "^2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "WIT Exhibition",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wit-exhibition/exhibition/issues"
+  }
+}
